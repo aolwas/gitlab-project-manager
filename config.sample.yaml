@@ -1,0 +1,9 @@
+gitlab:
+  host: "gitlab.com"
+  token: ""
+
+projects:
+- name: "sample_project"
+  default_branch: "master"
+  default_branch_push_protected_access_level: "Maintainer"
+  visibility: "Private"
